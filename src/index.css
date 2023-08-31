@@ -1,4 +1,8 @@
-.allBG{
+.allBG1{
+  background-image: linear-gradient(to left,#020202d6 65%,#757370);
+}
+
+.allBG2{
   background-image: linear-gradient(to left,#020202d6,#757370,#020202d6);
 }
 
@@ -50,13 +54,14 @@ section .title::after{
   transform: translateX(-50%);
 }
 section{
-  padding: 100px 0;
+  padding: 90px 0;
 }
 .max-width{
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
 }
+
 
 /* home section styling */
 .home{
@@ -191,8 +196,128 @@ section{
   font-size: 14px;
 }
 
-
 .tab-contents.active-tab {
   display: block;
 }
+
+/* For Experience */
+.hr-lines{
+  position: relative;
+  max-width: 550px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 3px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 3px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+/* For Education */
+.hr-lines1{
+  position: relative;
+  max-width: 550px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.hr-lines1:before{
+  content:" ";
+  height: 3px;
+  width: 170px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines1:after{
+  content:" ";
+  height: 3px;
+  width: 170px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+/* Gradutaion Icon */
+.blue-color {
+  color:rgb(225, 222, 222);
+}
+
+/* For projects Card */
+
+#Projects {
+  padding:0;
+}
+.projects-list {
+  padding: 30px;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin-top: 2.3rem;
+}
+
+.card h2,
+a,
+p {
+  margin-left: 0.5rem;
+}
+
+.projects-list img {
+  border-radius: 10px;
+}
+
+.projects-list div {
+  background: #262626;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+.projects-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 0.5rem;
+}
+
+.projects-list div a {
+  color:rgb(13 187 253);
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.projects-list div:hover {
+  background:#757370;
+  transform: translateY(-10px);
+}
+
+
 

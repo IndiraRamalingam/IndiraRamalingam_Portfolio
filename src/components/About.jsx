@@ -8,7 +8,7 @@ function About() {
   return (
    <>
    <>
-        <section className="allBG">
+        <section className="allBG1">
         <div className="container-fluid">
         <h3 className="mb-5 text-uppercase" style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','textAlign':'center','fontSize':'45px','marginTop':'-50px'}}>ABOUT ME</h3>
           <div className='row'>      
@@ -52,28 +52,29 @@ function About() {
                 {/* To Download Resume */}
                 <div className='mt-5' style={{}}>
                   <a href='https://drive.google.com/file/d/1ufn0ZOeFkyjD5EBL4AWuE4BAJoXvnvWk/view?usp=drive_link' target='_blank' download>
-                    <button className='btn btn-secondary btn-lg'>Download Resume</button>
+                    <button className='btn btn-success btn-lg'>Download Resume</button>
                   </a>
                 </div>
 
-                {/* Technologies  */}
+                
                 <div className='mt-5'>
                 <div className=" rounded  mb-5">
                           <ul id="myTab2" role="tablist" className="nav nav-tabs with-arrow lined flex-column flex-sm-row text-center">
-                            <li className="nav-item flex-sm-fill">
-                              <a id="home2-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home2" aria-selected="true" className="nav-link text-uppercase font-weight-bold mr-sm-3 rounded-0 active">Skills</a>
+                            <li className="nav-item flex-sm-fill ">
+                              <a id="home2-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home2" aria-selected="true" className="nav-link text-uppercase font-weight-bold mr-sm-3 rounded-0 active textabout">Skills</a>
                             </li>
                             <li className="nav-item flex-sm-fill">
-                              <a id="profile2-tab" data-toggle="tab" href="#profile2" role="tab" aria-controls="profile2" aria-selected="false" className="nav-link text-uppercase font-weight-bold mr-sm-3 rounded-0">Experience</a>
+                              <a id="profile2-tab" data-toggle="tab" href="#profile2" role="tab" aria-controls="profile2" aria-selected="false" className="nav-link text-uppercase font-weight-bold mr-sm-3 rounded-0 textabout">Experience</a>
                             </li>
                             <li className="nav-item flex-sm-fill">
-                              <a id="contact2-tab" data-toggle="tab" href="#contact2" role="tab" aria-controls="contact2" aria-selected="false" className="nav-link text-uppercase font-weight-bold rounded-0">Education</a>
+                              <a id="contact2-tab" data-toggle="tab" href="#contact2" role="tab" aria-controls="contact2" aria-selected="false" className="nav-link text-uppercase font-weight-bold rounded-0 textabout">Education</a>
                             </li>
                           </ul>
                           {/* For Skills */}
                           <div id="myTab2Content" className="tab-content">
                             <div id="home2" role="tabpanel" aria-labelledby="home-tab" className="tab-pane fade px-4 py-5 show active">
                               <div id='Skills'>
+                              <h3 className="mt-" style={{color:"rgb(13 187 253)",'fontWeight':'bolder','textAlign':'left','fontSize':'30px'}}>Technologies I work with,</h3>
                                 <div className="skills-image">
                                   {techStack.map((el,i)=>{
                                   return(
@@ -89,29 +90,135 @@ function About() {
                               </div>
                             </div>
 
-                            {/* For Experience */}
-                            <div id="profile2" role="tabpanel" aria-labelledby="profile-tab" className="tab-pane fade px-4 py-5">
-                             Experience
-                              
-                            </div>
+                        {/* For Experience */}
+                        <div id="profile2" role="tabpanel" aria-labelledby="profile-tab" className="tab-pane fade px-4 py-5">
+                              <h3 className="mb-2 text-uppercase" style={{color:"rgb(13 187 253)",'fontWeight':'bolder','textAlign':'center','fontSize':'25px'}}>Excelacom Technologies Private Limited, <span style={{color:"rgb(48 231 73)",'fontWeight':'bold',"fontSize":'16px'}}>Siruseri, Chennai.</span></h3>
+                              <h5 className=" mt-2" style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','textAlign':'center','fontSize':'20px'}}>Programmer Analyst<span style={{color:"rgb(225, 222, 222)",'fontWeight':'bold',"fontSize":'16px','marginLeft':'20px'}}> <i className="fa fa-calendar mt-3" style={{color:"rgb(225, 222, 222)",'fontSize':'19px','fontWeight':'bolder'}} > Sept 2015 - Feb 2019</i></span></h5>
+
+                              <div className='mt-5'>
+                              <h5 className="hr-lines">Projects I have worked there</h5>
+                              </div>
+
+                              {/* Project1 */}
+                              <div>
+                                <div className='row'>
+                                    <div className='col-sm-8'>
+                                    <h5 className="mb-2 mt-4" style={{color:"rgb(229 202 139 / 95%)",'fontWeight':'bold','fontSize':'19px'}}>Project : NorthStar Retail Portal </h5>
+                                    </div>
+                                    <div className='col-sm-4'>
+                                    <i className="fa fa-calendar mt-4 mb-4" style={{'fontSize':'17px','fontWeight':'bold','color':'rgb(229 202 139 / 95%)'}} > Jan 2017-Feb 2019</i>
+                                    </div>
+                                </div>
+                                
+                                <h5 className="mb-2 mt-2" style={{color:"rgb(225, 222, 222)",'fontWeight':'bold','fontSize':'18px'}}>Project Description</h5>
+
+                                <div className='mt-3 mx-5' style={{fontFamily:'sans-serif Poppins', textAlign: 'justify',fontSize:'16px'}}>
+                                  <p>Consolidated Communications, Inc. was an American operator of
+                                  communication services. Consolidated's services include local
+                                  and long distance phone service, data, Internet, broadband,
+                                  television, business communications solutions and fiber
+                                  services.</p>
+                                </div>
+                
+                                <h5 className="mb-2 mt-2" style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','fontSize':'18px'}}>Roles and Responsibilities</h5>
+                                <ul className='mx-5'>
+                                  <li>Responsible for analysing business requirements and converting them into technical specifications.</li>
+                                  <li>Performed Agile Methodology.</li>
+                                  <li>Performed coding, based on coding standards.</li>
+                                  <li>Unit test case preparation and execution for the developed
+                                modules and also involved in progression and Integration
+                                testing.</li>
+                                </ul>
+                              </div>
+
+                          {/* Project2 */}
+                          <div>
+                                <div className='row'>
+                                    <div className='col-sm-8'>
+                                    <h5 className="mb-2 mt-4" style={{color:"rgb(229 202 139 / 95%)",'fontWeight':'bold','fontSize':'19px'}}>Project : FireFly (Century Orchestrator)</h5>
+                                    </div>
+                                    <div className='col-sm-4'>
+                                    <i className="fa fa-calendar mt-4 mb-4" style={{color:"rgb(229 202 139 / 95%)",'fontSize':'17px','fontWeight':'bold'}} > Sept 2015-Dec 2016</i>
+                                    </div>
+                                </div>
+                                
+                                <h5 className="mb-2 mt-2" style={{color:"rgb(225, 222, 222)",'fontWeight':'bold','fontSize':'18px'}}>Project Description</h5>
+
+                                <div className='mt-3 mx-5' style={{fontFamily:'sans-serif Poppins', textAlign: 'justify',fontSize:'16px'}}>
+                                  <p>Comcast is the second largest broadcasting and cable
+                                    television company in the world by revenue, and is America's
+                                    largest home Internet service provider. It provides services
+                                    to U.S. residential and commercial customers in 40 states
+                                    and the District of Columbia.</p>
+                                </div>
+                
+                                <h5 className="mb-2 mt-2" style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','fontSize':'18px'}}>Roles and Responsibilities</h5>
+                                <ul className='mx-5'>
+                                  <li>Understanding the requirement document.</li>
+                                  <li>Implementing the presentation layer using JavaScript and JSP.</li>
+                                  <li>Involved in performing unit testing and integration testing.</li>
+                                  <li>Bug fixing.</li>
+                                </ul>
+                              </div>
+
+                          </div>
 
                             {/* For Education */}
                             <div id="contact2" role="tabpanel" aria-labelledby="contact-tab" className="tab-pane fade px-4 py-5">
                             <div className="tab-contents" >
-                                <ul>
-                                  <li>
-                                    <h4>Bachelor Of Engineering - CSE</h4><br />
-                                  </li>
-                                  <li>
-                                    <span>Diploma in Mechanical Engineering</span
-                                    ><br />Qualified with First Class distinction(87.59%)
-                                  </li>
-                                  <li>
-                                    <span>SSC (10th)</span><br />Qualified with First Class
-                                    distinction(86.40%)
-                                  </li>
-                                </ul>
+                              <div className=''>
+                                <h5 className="hr-lines1" style={{color:"rgb(13 187 253)"}}>   Where I educated   </h5>
                               </div>
+
+                              <div className='row mt-5'>
+                                   <div className='col-sm-3' style={{'textAlign':'center'}}>
+                                   <span className="bi bi-mortarboard-fill blue-color" style={{'fontSize':'70px'}}> </span>
+                                   </div>
+                                    <div className='col-sm-6'>
+                                    <h5 className=" text-uppercase" style={{color:"rgb(229 202 139 / 95%)",'fontWeight':'bold','fontSize':'20px','textAlign':'center'}}>Bachelor Of Engineering </h5>
+                                    <div className='mx-1'>
+                                      <h5 style={{'fontFamily':'serif','textAlign':'center'}}>Computer Science and Engineering</h5>
+                                      <h6 style={{'fontFamily':'serif','textAlign':'center'}}>Srinivasa Institue Of Engineering and Technology</h6>
+                                      <p style={{'fontFamily':'serif','textAlign':'center'}}>Poonamallee, Chennai.</p>
+                                    </div>
+                                    </div>
+                                    <div className='col-sm-3' style={{'textAlign':'center'}}>
+                                    <i className="fa fa-calendar " style={{'fontSize':'17px','fontWeight':'bold'}} > 2011-2015</i>
+                                    </div>
+                                </div>
+
+                                <div className='row mt-3'>
+                                   <div className='col-sm-3' style={{'textAlign':'center'}}>
+                                   <span className="bi bi-mortarboard-fill blue-color" style={{'fontSize':'60px'}}> </span>
+                                   </div>
+                                    <div className='col-sm-6'>
+                                    <h5 className=" text-uppercase" style={{color:"rgb(229 202 139 / 95%)",'fontWeight':'bold','fontSize':'20px','textAlign':'center'}}>HSC</h5>
+                                    <div className='mx-1'>
+                                      <h6 style={{'fontFamily':'serif','textAlign':'center'}}>Chennai Girls Higher Secondary School</h6>
+                                      <p style={{'fontFamily':'serif','textAlign':'center'}}>Perambur, Chennai.</p>
+                                    </div>
+                                    </div>
+                                    <div className='col-sm-3' style={{'textAlign':'center'}}>
+                                    <i className="fa fa-calendar " style={{'fontSize':'17px','fontWeight':'bold'}} > April 2011</i>
+                                    </div>
+                                </div>
+
+                                <div className='row mt-3'>
+                                   <div className='col-sm-3' style={{'textAlign':'center'}}>
+                                   <span className="bi bi-mortarboard-fill blue-color" style={{'fontSize':'50px'}}> </span>
+                                   </div>
+                                    <div className='col-sm-6'>
+                                    <h5 className=" text-uppercase" style={{color:"rgb(229 202 139 / 95%)",'fontWeight':'bold','fontSize':'20px','textAlign':'center'}}>SSLC</h5>
+                                    <div className='mx-1'>
+                                      <h6 style={{'fontFamily':'serif','textAlign':'center'}}>Chennai Girls Higher Secondary School</h6>
+                                      <p style={{'fontFamily':'serif','textAlign':'center'}}>Perambur, Chennai.</p>
+                                    </div>
+                                    </div>
+                                    <div className='col-sm-3' style={{'textAlign':'center'}}>
+                                    <i className="fa fa-calendar " style={{'fontSize':'17px','fontWeight':'bold'}} > April 2009</i>
+                                    </div>
+                                </div>
+                                </div>
                               
                             </div>
                           </div>
