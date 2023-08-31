@@ -1,0 +1,198 @@
+.allBG{
+  background-image: linear-gradient(to left,#020202d6,#757370,#020202d6);
+}
+
+.gradBG{
+  background-image: url("https://img.freepik.com/premium-photo/top-view-laptop-computer-notepad-pen-dark-stone-background-with-copy-space-modern-workspace_35674-20037.jpg") !important;
+}
+
+.nav-links{
+  font-size:x-large;
+color: #69696b !important;
+}
+.navigation{
+  height:10vh !important;
+  background-color: #ecedf142;
+}
+.nav-links:hover {
+background-color: #f6f6f842; /*will change background-color of element on hover */
+font-weight: 600;
+font-size:xx-large;
+}
+
+section .title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+section .title::after{
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color:black;
+  padding: 0 5px;
+  background:white;
+  transform: translateX(-50%);
+}
+section{
+  padding: 100px 0;
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+/* home section styling */
+.home{
+  display: flex;
+  background: url('') no-repeat center;
+  height: 90vh;
+  color: rgb(225, 222, 222);
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+  margin: auto 0 auto 30px;
+}
+.home .home-content .text-1{
+  font-size: 27px;
+}
+.home .home-content .text-2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .home-content .text-3 span{
+  color:white;
+  font-weight: 500;
+}
+
+/* For About Page */
+
+.home1{
+  display: flex;
+  height: fit-content;
+  color: rgb(225, 222, 222);
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+.home1 .max-width1{
+  margin-top: -90px;
+}
+.home1 .home-content1 .text-21{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home1 .home-content1 .text-31{
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+
+/* With arrow tabs */
+
+.with-arrow .nav-link.active {
+  position: relative;
+}
+
+.with-arrow .nav-link.active::after {
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgb(225, 222, 222);
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}
+
+/* lined tabs */
+
+.lined .nav-link {
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link:hover {
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link.active {
+  background: none;
+  color:  rgb(225, 222, 222);  
+  font-weight:bolder;
+  border-color: #2b90d9;
+}
+
+.Skills-Adjust {
+  background: rgb(247, 243, 243);
+  display: flex;
+  flex-direction: row;
+  color: black;
+  width: 10rem;
+  height: 4rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+.Skills-Adjust img {
+  width: 4rem;
+  margin-left: 0.3rem;
+  height: 3rem;
+}
+.skills-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Skills-Adjust h5 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.tab-contents ul li span {
+  color: #ddcedd2b;
+  font-size: 14px;
+}
+
+
+.tab-contents.active-tab {
+  display: block;
+}
+
