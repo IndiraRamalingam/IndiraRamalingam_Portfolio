@@ -1,3 +1,5 @@
+import hospital from './assets/Hospital_CRM.png'
+
 export const techStack = [
     {
       name: "JavaScript",
@@ -52,4 +54,46 @@ export const techStack = [
       name: "Netlify",
       link: "https://seeklogo.com/images/N/netlify-icon-logo-7CF6AA9DC7-seeklogo.com.png",
     },
+  ];
+
+
+  export const projectStack =[
+    {
+      title:"Hospital CRM",
+      img:"src/assets/Hospital_CRM.png",
+      tech:"React, NodeJS, ExpressJS, MongoDB",
+      live:"https://aquamarine-cobbler-943101.netlify.app/",
+      frontend:"https://github.com/IndiraRamalingam/Hospital_CRM_Frontend",
+      backend:"https://github.com/IndiraRamalingam/Hospital_CRM_Backend",
+      description:"Hospital CRM was developed to manage the patients and doctor details by admin. Also, patient and doctor can able to view and perform their actions. "
+    },
+    {
+      title:"Password Reset App",
+      img:"src/assets/Password_Reset.png",
+      tech:"React, NodeJS, ExpressJS, MongoDB",
+      live:"https://bright-kataifi-acf1c9.netlify.app",
+      frontend:"https://github.com/IndiraRamalingam/password-reset-fe",
+      backend:"https://github.com/IndiraRamalingam/password-reset-be",
+      description:"Password Reset App was developed to register a new user and also can able to reset the password through email."
+    },
+    {
+      title:"MakeUp Products API",
+      img:"src/assets/Makeup_API.png",
+      tech:"HTML5, CSS3",
+      live:"https://zesty-centaur-78fc14.netlify.app/",
+      frontend:"",
+      backend:"",
+      code:"https://github.com/IndiraRamalingam/Guvi_Task/tree/Guvi_Task/Guvi_WebCode_1/Makeup_API",
+      description:"MakeUp Products API is a webpage created by fetching data from API using async/await. It will display the details about the selected products."
+    },
+    {
+      title:"Portfolio",
+      img:"src/assets/Portfolio.png",
+      tech:"React, Bootstrap",
+      live:"https://bright-kataifi-acf1c9.netlify.app",
+      frontend:"",
+      backend:"",
+      code:"",
+      description:"Personal Portfolio was developed to showcase the activity and skills implemented in Full Stack Development."
+    }
   ];

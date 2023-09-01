@@ -265,59 +265,7 @@ section{
   color:rgb(225, 222, 222);
 }
 
-/* For projects Card */
 
-#Projects {
-  padding:0;
-}
-.projects-list {
-  padding: 30px;
-  margin: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.card {
-  margin-top: 2.3rem;
-}
-
-.card h2,
-a,
-p {
-  margin-left: 0.5rem;
-}
-
-.projects-list img {
-  border-radius: 10px;
-}
-
-.projects-list div {
-  background: #262626;
-  font-size: 16px;
-  font-weight: 300;
-  border-radius: 10px;
-  transition: background 0.5s, transform 0.5s;
-}
-.projects-list div h2 {
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 15px;
-  margin-top: 0.5rem;
-}
-
-.projects-list div a {
-  color:rgb(13 187 253);
-  font-size: 14px;
-  margin-top: 10px;
-  display: inline-block;
-  padding-bottom: 0.5rem;
-}
-
-.projects-list div:hover {
-  background:#757370;
-  transform: translateY(-10px);
-}
 
 
 
