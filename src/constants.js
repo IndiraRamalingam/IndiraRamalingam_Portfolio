@@ -90,10 +90,10 @@ export const techStack = [
       title:"Portfolio",
       img:"src/assets/Portfolio.png",
       tech:"React, Bootstrap",
-      live:"https://bright-kataifi-acf1c9.netlify.app",
+      live:"https://indira-ramalingam-portfolio.netlify.app/",
       frontend:"",
       backend:"",
-      code:"",
+      code:"https://github.com/IndiraRamalingam/IndiraRamalingam_Portfolio",
       description:"Personal Portfolio was developed to showcase the activity and skills implemented in Full Stack Development."
     }
   ];
