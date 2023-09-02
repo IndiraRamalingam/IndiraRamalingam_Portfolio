@@ -265,7 +265,10 @@ section{
   color:rgb(225, 222, 222);
 }
 
-
+/* Background for contact form */
+card-body{
+  background-color: beige;
+}
 
 
 
