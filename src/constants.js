@@ -1,7 +1,7 @@
-import Hospitalcrm from './assets/Hospital_CRM.png'
-import Makeup from './assets/Makeup_API.png'
-import Password from './assets/Password_Reset.png'
-import Portfolio from './assets/Portfolio.png'
+import Hospitalcrm from './assets/Hospital_CRM.png';
+import Password from './assets/Password_Reset.png';
+import Portfolio from './assets/Portfolio.png';
+import Makeup from './assets/Makeup_API.png';
 
 export const techStack = [
     {
