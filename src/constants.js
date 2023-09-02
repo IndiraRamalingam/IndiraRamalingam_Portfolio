@@ -1,4 +1,4 @@
-import hospital from './assets/Hospital_CRM.png'
+
 
 export const techStack = [
     {
