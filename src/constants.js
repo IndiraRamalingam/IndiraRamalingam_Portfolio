@@ -60,7 +60,7 @@ export const techStack = [
   export const projectStack =[
     {
       title:"Hospital CRM",
-      img:"src/assets/Hospital_CRM.png",
+      img:"https://github.com/IndiraRamalingam/IndiraRamalingam_Portfolio/blob/ca7b2a875431c2c7245c495da2fb3200c7e91d3c/src/assets/Hospital_CRM.png",
       tech:"React, NodeJS, ExpressJS, MongoDB",
       live:"https://aquamarine-cobbler-943101.netlify.app/",
       frontend:"https://github.com/IndiraRamalingam/Hospital_CRM_Frontend",
@@ -89,7 +89,7 @@ export const techStack = [
     {
       title:"Portfolio",
       img:"src/assets/Portfolio.png",
-      tech:"React, Bootstrap,hm",
+      tech:"React, Bootstrap",
       live:"https://indira-ramalingam-portfolio.netlify.app/",
       frontend:"",
       backend:"",
