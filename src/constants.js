@@ -1,7 +1,7 @@
 import Hospitalcrm from './assets/Hospital_CRM.png';
 import Password from './assets/Password_Reset.png';
 import Portfolio from './assets/Portfolio.png';
-import Makeup from './assets/Makeup_API.png';
+
 
 export const techStack = [
     {
@@ -81,7 +81,7 @@ export const techStack = [
     },
     {
       title:"MakeUp Products API",
-      img:Makeup,
+      img:Password,
       tech:"HTML5, CSS3",
       live:"https://zesty-centaur-78fc14.netlify.app/",
       frontend:"",
