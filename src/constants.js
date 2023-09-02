@@ -1,4 +1,7 @@
-
+import Hospitalcrm from './assets/Hospital_CRM.png'
+import Makeup from './assets/Makeup_API.png'
+import Password from './assets/Password_Reset.png'
+import Portfolio from './assets/Portfolio.png'
 
 export const techStack = [
     {
@@ -60,7 +63,7 @@ export const techStack = [
   export const projectStack =[
     {
       title:"Hospital CRM",
-      img:"https://github.com/IndiraRamalingam/IndiraRamalingam_Portfolio/blob/ca7b2a875431c2c7245c495da2fb3200c7e91d3c/src/assets/Hospital_CRM.png",
+      img:Hospitalcrm,
       tech:"React, NodeJS, ExpressJS, MongoDB",
       live:"https://aquamarine-cobbler-943101.netlify.app/",
       frontend:"https://github.com/IndiraRamalingam/Hospital_CRM_Frontend",
@@ -69,7 +72,7 @@ export const techStack = [
     },
     {
       title:"Password Reset App",
-      img:"src/assets/Password_Reset.png",
+      img:Password,
       tech:"React, NodeJS, ExpressJS, MongoDB",
       live:"https://bright-kataifi-acf1c9.netlify.app",
       frontend:"https://github.com/IndiraRamalingam/password-reset-fe",
@@ -78,7 +81,7 @@ export const techStack = [
     },
     {
       title:"MakeUp Products API",
-      img:"src/assets/Makeup_API.png",
+      img:Makeup,
       tech:"HTML5, CSS3",
       live:"https://zesty-centaur-78fc14.netlify.app/",
       frontend:"",
@@ -88,7 +91,7 @@ export const techStack = [
     },
     {
       title:"Portfolio",
-      img:"src/assets/Portfolio.png",
+      img:Portfolio,
       tech:"React, Bootstrap",
       live:"https://indira-ramalingam-portfolio.netlify.app/",
       frontend:"",
