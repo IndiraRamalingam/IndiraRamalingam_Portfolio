@@ -51,7 +51,7 @@ function About() {
 
                 {/* To Download Resume */}
                 <div className='mt-5' style={{}}>
-                  <a href='https://drive.google.com/file/d/1bmAuACg40Jhv4B-oWYQ_oH4o9WfVCogm/view?usp=drive_link' target='_blank' download>
+                  <a href='https://drive.google.com/file/d/1TcR9tlXrQzG78PrzxklMZaBHW8ai3BTB/view?usp=drive_link' target='_blank' download>
                     <button className='btn btn-success btn-lg'>Download Resume </button>
                   </a>
                 </div>
