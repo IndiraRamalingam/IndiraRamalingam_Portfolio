@@ -2,6 +2,7 @@ import Hospitalcrm from './assets/Hospital_CRM.png';
 import Password from './assets/Password_Reset.png';
 import Portfolio from './assets/Portfolio.png';
 import Makeup from './assets/Makeup.png';
+import UrlShortener from './assets/UrlShortener.png';
 
 
 export const techStack = [
@@ -69,7 +70,16 @@ export const techStack = [
       live:"https://aquamarine-cobbler-943101.netlify.app/",
       frontend:"https://github.com/IndiraRamalingam/Hospital_CRM_Frontend",
       backend:"https://github.com/IndiraRamalingam/Hospital_CRM_Backend",
-      description:"Hospital CRM was developed to manage the patients and doctor details by admin. Also, patient and doctor can able to view and perform their actions. "
+      description:"Hospital CRM was developed to manage the patients and doctor details by admin. Also, doctor can able to view the list of patients and prescribe them. And, Patients can able to book a appointment and view their appointment history and their details. "
+    },
+    {
+      title:"uShortener",
+      img:UrlShortener,
+      tech:"React, NodeJS, ExpressJS, MongoDB",
+      live:"https://ushortener.netlify.app",
+      frontend:"https://github.com/IndiraRamalingam/URL_Shortener_Frontend",
+      backend:"https://github.com/IndiraRamalingam/URL_Shortener_Backend",
+      description:"User has to create a account and once the account has created activation link will be sent to the entered Mail ID. After the activation of account,can able to shorten the lengthy URL and also display the list of generated URLS, Count of URL's generated on month and day basis."
     },
     {
       title:"Password Reset App",
@@ -78,7 +88,7 @@ export const techStack = [
       live:"https://bright-kataifi-acf1c9.netlify.app",
       frontend:"https://github.com/IndiraRamalingam/password-reset-fe",
       backend:"https://github.com/IndiraRamalingam/password-reset-be",
-      description:"Password Reset App was developed to register a new user and also can able to reset the password through email."
+      description:"Password Reset App was developed to register a new user and also user can able to reset the password using Forgot Password Option and reset password link will be sent through the Mail ID. "
     },
     {
       title:"MakeUp Products API",
