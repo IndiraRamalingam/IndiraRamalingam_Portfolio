@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import emailjs from "@emailjs/browser";
 
 function Contact() {
+  
+  const form=useRef();
+
+  const handleSubmit =(e) =>{
+    e.preventDefault();
+    emailjs.sendForm("service_x5szjoe", "template_6tllm9u", form.current, "j92Cj__-MZAT3XXZQ").then(
+      (result) => {
+        console.log(result.text);
+        alert("Message Sent Successfully");
+      },
+      (error) => {
+        console.log(error.text);
+        alert("Message Sent Failed");
+      }
+    );
+  }
+
   return (
     <>
     <section className="allBG2">
@@ -78,25 +96,25 @@ function Contact() {
           </div>
 
           <div className='col-sm-6 mt-4 rounded' style={{backgroundColor:'#8d8d83'}}>
-                <Form >
+                <Form ref={form} onSubmit={handleSubmit} >
                 <div className="p-md-4" >
                     
                   <div className="form-outline mb-4">
                   <label style={{fontSize:'20px','color':'rgb(225, 222, 222)','fontWeight':'500'}}>Name</label>
-                    <input type="text" className="form-control form-control-lg" 
+                    <input type="text" className="form-control form-control-lg" name="name"
                     placeholder='Enter your name'/>
                   </div>
 
                   <div className="form-outline mb-4">
                   <label style={{fontSize:'20px','color':'rgb(225, 222, 222)','fontWeight':'500'}}>Email</label>
-                    <input type="email" className="form-control form-control-lg" 
+                    <input type="email" className="form-control form-control-lg" name="email"
                     placeholder="Enter your email"
                    />
                   </div>
 
                   <div className="form-outline mb-4">
                     <label style={{fontSize:'20px','color':'rgb(225, 222, 222)','fontWeight':'500'}}>Message</label>
-                    <textarea className="form-control form-control-lg" 
+                    <textarea className="form-control form-control-lg" name="message"
                     placeholder='Write your message'
                    />
                   </div>
