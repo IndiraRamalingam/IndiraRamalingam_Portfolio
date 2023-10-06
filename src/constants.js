@@ -3,6 +3,7 @@ import Password from './assets/Password_Reset.png';
 import Portfolio from './assets/Portfolio.png';
 import Makeup from './assets/Makeup.png';
 import UrlShortener from './assets/UrlShortener.png';
+import ECommerce from './assets/E_Commerce.png';
 
 
 export const techStack = [
@@ -74,7 +75,7 @@ export const techStack = [
     },
     {
       title:"E_commerce Website",
-      img:Hospitalcrm,
+      img:ECommerce,
       tech:"React, NodeJS, ExpressJS, MongoDB",
       live:"https://e-commerce-babyshop.netlify.app/",
       frontend:"https://github.com/IndiraRamalingam/E_Commerce_Frontend",
