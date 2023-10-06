@@ -79,7 +79,7 @@ export const techStack = [
       live:"https://e-commerce-babyshop.netlify.app/",
       frontend:"https://github.com/IndiraRamalingam/E_Commerce_Frontend",
       backend:"https://github.com/IndiraRamalingam/E_Commerce_Backend",
-      description:"E_Commerce website was developed to do the online shopping with Razorpay Payment Itegration. User has to login with their credentials and then Place orders and make payments. They can also able to view their payent ID and Order Id details."
+      description:"E_Commerce website was developed to do the online shopping with Razorpay Payment Integration. User has to login with their credentials and then Place orders and make payments. They can also able to view their payent ID and Order Id details."
     },
     {
       title:"uShortener",
