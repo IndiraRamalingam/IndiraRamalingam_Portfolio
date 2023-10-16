@@ -4,6 +4,7 @@ import Portfolio from './assets/Portfolio.png';
 import Makeup from './assets/Makeup.png';
 import UrlShortener from './assets/UrlShortener.png';
 import ECommerce from './assets/E_Commerce.png';
+import ChatZ from './assets/ChatZ_ChatApp.png'
 
 
 export const techStack = [
@@ -81,6 +82,15 @@ export const techStack = [
       frontend:"https://github.com/IndiraRamalingam/E_Commerce_Frontend",
       backend:"https://github.com/IndiraRamalingam/E_Commerce_Backend",
       description:"E_Commerce website was developed to do the online shopping with Razorpay Payment Integration. User has to login with their credentials and then place orders and make payments. They can also able to view their payment ID and Order Id details."
+    },
+    {
+      title:"ChatZ - Chat App",
+      img:ChatZ,
+      tech:"React, NodeJS, ExpressJS, MongoDB",
+      live:"https://chatz-app-socket.netlify.app",
+      frontend:"https://github.com/IndiraRamalingam/ChatZ_Frontend",
+      backend:"https://github.com/IndiraRamalingam/ChatZ_Backend",
+      description:"A Chatting app created using MERN stack and Socket.io. This app enables real time chatting between registered users. This app consists of login, register, user list and chat window pages."
     },
     {
       title:"uShortener",

@@ -15,7 +15,7 @@ function About() {
             <div className='col-xl-4'>
             <img src={picture}
             alt="Sample photo" className="img-fluid ml-5"
-            style={{'borderTopLeftRadius': ".25rem", 'borderBottomLeftRadius': '.25rem','height':'510px','width':'350px'}}/>
+            style={{'borderTopLeftRadius': ".25rem", 'borderBottomLeftRadius': '.25rem','height':'410px','width':'280px','textAlign':'center'}}/>
             </div>
             <div className='col-xl-8 d-xl-block'>
             <section className="home1" id="home1">
@@ -39,6 +39,8 @@ function About() {
                   200,
                   ' ',
                   200,
+                  ' Programmer Analyst',
+                  200,  
                 ]}
                 style={{ fontSize: '1em' , color:'rgb(225, 222, 222)'}}
                 repeat={Infinity} />
@@ -46,7 +48,7 @@ function About() {
 
                 {/* Adding content in about page */}
                 <div className='mt-4' style={{fontFamily:'sans-serif Poppins', textAlign: 'justify',fontSize:'18px'}}>
-                <p>I am a Full Stack Developer, proficient in Web development & App development. As a Full Stack professional, I am looking to develop robust web applications that support scalability through the use of my technical knowledge and apply my programming and analytical studies in the organization professionally. I have clear understanding of modern technologies & best design practices. Now I am seeking for an opportunity to utilize my skills and abilities in the Information Technology Industry that offers Professional growth while being resourceful, innovative, and flexible. I am always ready for expanding my knowledge/learning’s and it's successful implementation. Frequently praised as adaptable by my peers, I believe to be able to help any company for achieving its goals.</p>
+                <p>Around 3+ years of experience in IT Industry as a Programmer Analyst. I'm pursuing Full Stack Developer Programme at GUVI Zen-Class IITM Research Park. As a Full Stack professional, I am looking to develop robust web applications that support scalability through the use of my technical knowledge and apply my programming and analytical studies in the organization professionally. I have clear understanding of modern technologies & best design practices. Now I am seeking for an opportunity to utilize my skills and abilities in the Information Technology Industry that offers Professional growth while being resourceful, innovative, and flexible. I am always ready for expanding my knowledge/learning’s and it's successful implementation. Frequently praised as adaptable by my peers, I believe to be able to help any company for achieving its goals.</p>
                 </div>
 
                 {/* To Download Resume */}

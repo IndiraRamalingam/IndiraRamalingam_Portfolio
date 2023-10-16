@@ -25,6 +25,8 @@ function Home() {
                   200,
                   ' ',
                   200,
+                  ' Programmer Analyst',
+                  200,  
                 ]}
                 style={{ fontSize: '1em' , color:'rgb(225, 222, 222)'}}
                 repeat={Infinity} />
