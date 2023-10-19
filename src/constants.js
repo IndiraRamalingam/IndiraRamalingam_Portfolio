@@ -92,24 +92,24 @@ export const techStack = [
       backend:"https://github.com/IndiraRamalingam/ChatZ_Backend",
       description:"A Chatting app created using MERN stack and Socket.io. This app enables real time chatting between registered users. This app consists of login, register, user list and chat window pages."
     },
-    {
-      title:"uShortener",
-      img:UrlShortener,
-      tech:"React, NodeJS, ExpressJS, MongoDB",
-      live:"https://ushortener.netlify.app",
-      frontend:"https://github.com/IndiraRamalingam/URL_Shortener_Frontend",
-      backend:"https://github.com/IndiraRamalingam/URL_Shortener_Backend",
-      description:"User has to create a account and once the account has created activation link will be sent to the entered Mail ID. After the activation of account,can able to shorten the lengthy URL and also display the list of generated URLS, Count of URL's generated on month and day basis."
-    },
-    {
-      title:"Password Reset App",
-      img:Password,
-      tech:"React, NodeJS, ExpressJS, MongoDB",
-      live:"https://bright-kataifi-acf1c9.netlify.app",
-      frontend:"https://github.com/IndiraRamalingam/password-reset-fe",
-      backend:"https://github.com/IndiraRamalingam/password-reset-be",
-      description:"Password Reset App was developed to register a new user and also user can able to reset the password using Forgot Password Option and reset password link will be sent through the Mail ID. "
-    },
+    // {
+    //   title:"uShortener",
+    //   img:UrlShortener,
+    //   tech:"React, NodeJS, ExpressJS, MongoDB",
+    //   live:"https://ushortener.netlify.app",
+    //   frontend:"https://github.com/IndiraRamalingam/URL_Shortener_Frontend",
+    //   backend:"https://github.com/IndiraRamalingam/URL_Shortener_Backend",
+    //   description:"User has to create a account and once the account has created activation link will be sent to the entered Mail ID. After the activation of account,can able to shorten the lengthy URL and also display the list of generated URLS, Count of URL's generated on month and day basis."
+    // },
+    // {
+    //   title:"Password Reset App",
+    //   img:Password,
+    //   tech:"React, NodeJS, ExpressJS, MongoDB",
+    //   live:"https://bright-kataifi-acf1c9.netlify.app",
+    //   frontend:"https://github.com/IndiraRamalingam/password-reset-fe",
+    //   backend:"https://github.com/IndiraRamalingam/password-reset-be",
+    //   description:"Password Reset App was developed to register a new user and also user can able to reset the password using Forgot Password Option and reset password link will be sent through the Mail ID. "
+    // },
     {
       title:"MakeUp Products API",
       img:Makeup,
