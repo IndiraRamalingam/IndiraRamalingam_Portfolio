@@ -113,7 +113,7 @@ export const techStack = [
     {
       title:"MakeUp Products API",
       img:Makeup,
-      tech:"HTML5, CSS3",
+      tech:"HTML5, CSS3, Bootstrap",
       live:"https://zesty-centaur-78fc14.netlify.app/",
       frontend:"",
       backend:"",
