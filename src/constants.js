@@ -5,6 +5,7 @@ import Makeup from './assets/Makeup.png';
 import UrlShortener from './assets/UrlShortener.png';
 import ECommerce from './assets/E_Commerce.png';
 import ChatZ from './assets/ChatZ_ChatApp.png'
+import ToDo from './assets/To_Do_App.png'
 
 
 export const techStack = [
@@ -92,15 +93,15 @@ export const techStack = [
       backend:"https://github.com/IndiraRamalingam/ChatZ_Backend",
       description:"A Chatting app created using MERN stack and Socket.io. This app enables real time chatting between registered users. This app consists of login, register, user list and chat window pages."
     },
-    // {
-    //   title:"uShortener",
-    //   img:UrlShortener,
-    //   tech:"React, NodeJS, ExpressJS, MongoDB",
-    //   live:"https://ushortener.netlify.app",
-    //   frontend:"https://github.com/IndiraRamalingam/URL_Shortener_Frontend",
-    //   backend:"https://github.com/IndiraRamalingam/URL_Shortener_Backend",
-    //   description:"User has to create a account and once the account has created activation link will be sent to the entered Mail ID. After the activation of account,can able to shorten the lengthy URL and also display the list of generated URLS, Count of URL's generated on month and day basis."
-    // },
+    {
+      title:"To-Do Application",
+      img:ToDo,
+      tech:"React, NodeJS, ExpressJS, MongoDB",
+      live:"https://indira-to-do-app.netlify.app",
+      frontend:"https://github.com/IndiraRamalingam/To_Do_Frontend",
+      backend:"https://github.com/IndiraRamalingam/To_Do_Backend",
+      description:"Todo app was created using MERN Stack.This app allows user to login into his account and enables user to add to do list and change it's completed status and can able to edit or delete the to-do list."
+    }, 
     // {
     //   title:"Password Reset App",
     //   img:Password,
