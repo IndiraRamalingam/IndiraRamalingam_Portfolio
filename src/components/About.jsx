@@ -1,5 +1,5 @@
 import React from 'react'
-import picture from '../assets/Indira_R.jpg'
+import picture from '../assets/Indira_V2.jpg'
 import { techStack } from '../constants'
 import '/src/index.css'
 import { TypeAnimation } from 'react-type-animation'
