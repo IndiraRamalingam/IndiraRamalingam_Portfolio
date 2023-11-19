@@ -6,6 +6,7 @@ import UrlShortener from './assets/UrlShortener.png';
 import ECommerce from './assets/E_Commerce.png';
 import ChatZ from './assets/ChatZ_ChatApp.png'
 import ToDo from './assets/To_Do_App.png'
+import E_Commerce_Product from './assets/E_Commerce_Product.png';
 
 
 export const techStack = [
@@ -76,13 +77,13 @@ export const techStack = [
       description:"Hospital CRM was developed to manage the patients and doctor details by admin. Also, doctor can able to view the list of patients and prescribe them. And, Patients can able to book a appointment and view their appointment history and their details. "
     },
     {
-      title:"E_commerce Website",
-      img:ECommerce,
+      title:"E_commerce Products Application",
+      img:E_Commerce_Product,
       tech:"React, NodeJS, ExpressJS, MongoDB",
-      live:"https://e-commerce-babyshop.netlify.app/",
-      frontend:"https://github.com/IndiraRamalingam/E_Commerce_Frontend",
-      backend:"https://github.com/IndiraRamalingam/E_Commerce_Backend",
-      description:"E_Commerce website was developed to do the online shopping with Razorpay Payment Integration. User has to login with their credentials and then place orders and make payments. They can also able to view their payment ID and Order Id details."
+      live:"https://e-commerce-product-fe.netlify.app/",
+      frontend:"https://github.com/IndiraRamalingam/E_Commerce_Product_Frontend",
+      backend:"https://github.com/IndiraRamalingam/E_Commerce_Product_Backend",
+      description:"E_Commerce Product Application was developed with role based authentication and authorization for users and admin. Admin can able to add, edit update or delete a product by login with their credentials. Users can able to login and view the products and do the online shopping with Razorpay Payment Integration. They can also able to view their payment ID and Order Id details."
     },
     {
       title:"ChatZ - Chat App",
@@ -102,6 +103,15 @@ export const techStack = [
       backend:"https://github.com/IndiraRamalingam/To_Do_Backend",
       description:"Todo app was created using MERN Stack.This app allows user to login into his account and enables user to add to do list and change it's completed status and can able to edit or delete the to-do list."
     }, 
+    {
+      title:"E_commerce Application",
+      img:ECommerce,
+      tech:"React, NodeJS, ExpressJS, MongoDB",
+      live:"https://e-commerce-babyshop.netlify.app/",
+      frontend:"https://github.com/IndiraRamalingam/E_Commerce_Frontend",
+      backend:"https://github.com/IndiraRamalingam/E_Commerce_Backend",
+      description:"E_Commerce website was developed to do the online shopping with Razorpay Payment Integration. User has to login with their credentials and then place orders and make payments. They can also able to view their payment ID and Order Id details."
+    },
     // {
     //   title:"Password Reset App",
     //   img:Password,
