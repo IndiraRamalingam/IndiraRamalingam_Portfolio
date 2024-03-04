@@ -15,7 +15,7 @@ function About() {
             <div className='col-xl-4'>
             <img src={picture}
             alt="Sample photo" className="img-fluid ml-5"
-            style={{'borderTopLeftRadius': ".25rem", 'borderBottomLeftRadius': '.25rem','height':'410px','width':'280px','textAlign':'center'}}/>
+            style={{'borderTopLeftRadius': ".25rem", 'borderBottomLeftRadius': '.25rem','height':'410px','width':'375px','textAlign':'center'}}/>
             </div>
             <div className='col-xl-8 d-xl-block'>
             <section className="home1" id="home1">
