@@ -117,7 +117,13 @@ section{
   font-size: 25px;
   margin: 5px 0;
 }
-
+.img-fluid{
+  border-top-left-radius: 0.25rem;
+   border-bottom-left-radius: 0.25rem;
+   height:50%;
+   width:100%;
+   text-align:center;
+}
 
 /* With arrow tabs */
 
@@ -271,4 +277,38 @@ card-body{
 }
 
 
-
+/* XX-Large devices (larger desktops - col-xl */ 
+@media only screen and (max-width: 1400px) {
+  .img-fluid{
+    height:30%;
+ }
+  }
+  
+  /* Large devices (desktops) - col-lg */ 
+  @media only screen and (max-width: 1200px) {
+    .img-fluid{
+      height:30%;
+   }
+  }
+  
+  
+  /* Medium devices (tablets) - col-md*/
+  @media only screen and (max-width: 992px) {
+    .img-fluid{
+      height:30%;
+   }
+  }
+  
+  /* Small devices (landscape phones) - col-sm */
+  @media only screen and (max-width: 768px) {
+    .img-fluid{
+      height:90%;
+   }
+  }
+  
+   /* Small devices (Portrait phones) - X-Small*/
+  @media only screen and (max-width: 576px) {
+    .img-fluid{
+       height:100%;
+    }
+  }

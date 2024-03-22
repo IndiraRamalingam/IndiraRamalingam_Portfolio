@@ -12,12 +12,11 @@ function About() {
         <div className="container-fluid">
         <h3 className="mb-5 text-uppercase" style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','textAlign':'center','fontSize':'45px','marginTop':'-50px'}}>ABOUT ME</h3>
           <div className='row'>      
-            <div className='col-xl-4'>
+            <div className='col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4'>
             <img src={picture}
-            alt="Sample photo" className="img-fluid ml-5"
-            style={{'borderTopLeftRadius': ".25rem", 'borderBottomLeftRadius': '.25rem','height':'410px','width':'375px','textAlign':'center'}}/>
+            alt="Sample photo" className="img-fluid"/>
             </div>
-            <div className='col-xl-8 d-xl-block'>
+            <div className=' col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8 d-xl-block'>
             <section className="home1" id="home1">
             <div className="max-width1">
             <div className="home-content1">
