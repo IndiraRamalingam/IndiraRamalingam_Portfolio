@@ -27,7 +27,8 @@ function Contact() {
       <div className="container">
         <h3 className="mb-5 " style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','textAlign':'center','fontSize':'45px','marginTop':'-50px'}}>Contact Me</h3>
         <div className='mt-5'>
-          <h5 className="hr-lines" style={{'color':"rgb(13 187 253)"}}>get in touch</h5>
+          {/* <h5 className="hr-lines" style={{'color':"rgb(13 187 253)"}}>get in touch</h5> */}
+          <h5 style={{textAlign:'center',color:'rgb(48 231 73)'}} >--- get in touch ---</h5>
         </div>
         <div className='row'>
 

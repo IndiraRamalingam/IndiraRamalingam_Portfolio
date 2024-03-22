@@ -38,7 +38,7 @@ function About() {
                   200,
                   ' ',
                   200,
-                  ' Programmer Analyst',
+                  ' Front-End Developer',
                   200,  
                 ]}
                 style={{ fontSize: '1em' , color:'rgb(225, 222, 222)'}}
@@ -47,7 +47,8 @@ function About() {
 
                 {/* Adding content in about page */}
                 <div className='mt-4' style={{fontFamily:'sans-serif Poppins', textAlign: 'justify',fontSize:'18px'}}>
-                <p>Around 3+ years of experience in IT Industry as a Programmer Analyst and involved in developing Frontend Web pages using Jahia CMS, HTML, CSS and JS. Worked in Agile Methodology. By understanding the document requirment, performed coding based on coding standards. Recently, I have completed my certification in Full Stack Development - MERN at GUVI Geeks Networks, IITM Research Park, Chennai. As a Full Stack professional, I am looking to develop robust web applications that support scalability through the use of my technical knowledge and apply my programming and analytical studies in the organization professionally. I have clear understanding of modern technologies & best design practices. Now I am seeking for an opportunity to utilize my skills and abilities in the Information Technology Industry that offers Professional growth while being resourceful, innovative, and flexible. I am always ready for expanding my knowledge/learning’s and it's successful implementation. </p>
+                {/* <p>Around 3+ years of experience in IT Industry as a Programmer Analyst and involved in developing Frontend Web pages using Jahia CMS, HTML, CSS and JS. Worked in Agile Methodology. By understanding the document requirment, performed coding based on coding standards. Recently, I have completed my certification in Full Stack Development - MERN at GUVI Geeks Networks, IITM Research Park, Chennai. As a Full Stack professional, I am looking to develop robust web applications that support scalability through the use of my technical knowledge and apply my programming and analytical studies in the organization professionally. I have clear understanding of modern technologies & best design practices. Now I am seeking for an opportunity to utilize my skills and abilities in the Information Technology Industry that offers Professional growth while being resourceful, innovative, and flexible. I am always ready for expanding my knowledge/learning’s and it's successful implementation. </p> */}
+                <p>I am a skilled front-end developer with over 3+ years of experience in creating user-friendly interfaces. I was proficient in a variety of front-end technologies including HTML5, CSS3,Bootstrap, Jahia CMS and Javascript frameworks like React. Also, Skilled in translating design mockups into pixel-perfect interfaces that enhance user engagement. My interests revolve around continuous learning and growth by enjoy exploring new technologies and trend in the field, which aligns well with the role.</p>
                 </div>
 
                 {/* To Download Resume */}
@@ -97,7 +98,8 @@ function About() {
                               <h5 className=" mt-2" style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','textAlign':'center','fontSize':'20px'}}>Programmer Analyst<span style={{color:"rgb(225, 222, 222)",'fontWeight':'bold',"fontSize":'16px','marginLeft':'20px'}}> <i className="fa fa-calendar mt-3" style={{color:"rgb(225, 222, 222)",'fontSize':'19px','fontWeight':'bolder'}} > Sept 2015 - Feb 2019</i></span></h5>
 
                               <div className='mt-5'>
-                              <h5 className="hr-lines">Projects I have worked there</h5>
+                              {/* <h5 className="hr-lines">Projects I have worked there</h5> */}
+                              <h5 style={{textAlign:'center',color:'rgb(48 231 73)'}} >Projects I have worked there</h5>
                               </div>
 
                               {/* Project1 */}
@@ -123,17 +125,22 @@ function About() {
                 
                                 <h5 className="mb-2 mt-2" style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','fontSize':'18px'}}>Roles and Responsibilities</h5>
                                 <ul className='mx-5'>
-                                  <li>Responsible for analysing business requirements and converting them into technical specifications.</li>
+                                  {/* <li>Responsible for analysing business requirements and converting them into technical specifications.</li>
                                   <li>Performed Agile Methodology.</li>
                                   <li>Performed coding, based on coding standards.</li>
                                   <li>Unit test case preparation and execution for the developed
                                 modules and also involved in progression and Integration
-                                testing.</li>
+                                testing.</li> */}
+                                <li>During my role, I involved in developing front-end features for a webpage and responsible for translating design mockups into code, creating visually appealing and interactive user interfaces.</li>
+                                <li>Optimized front-end code and assets to improve website speed and performance, including minimizing file sizes, using efficient coding techniques and implementing caching strategies.</li>
+                                <li>Integrated front-end code with JAHIA CMS platform so that the content can be easily managed and updated.</li>
+                                <li>Ensured that websites are designed to be responsive, adapting to different screen sizes and orientations.</li>
+                                <li>Also, conducted testing and debugging to identify and fix issues in front-end and enhanced the user experience.</li>
                                 </ul>
                               </div>
 
                           {/* Project2 */}
-                          <div>
+                          {/* <div>
                                 <div className='row'>
                                     <div className='col-sm-8'>
                                     <h5 className="mb-2 mt-4" style={{color:"rgb(229 202 139 / 95%)",'fontWeight':'bold','fontSize':'19px'}}>Project : FireFly (Century Orchestrator)</h5>
@@ -160,15 +167,16 @@ function About() {
                                   <li>Involved in performing unit testing and integration testing.</li>
                                   <li>Bug fixing.</li>
                                 </ul>
-                              </div>
+                              </div> */}
 
-                          </div>
+                          </div> 
 
                             {/* For Education */}
                             <div id="contact2" role="tabpanel" aria-labelledby="contact-tab" className="tab-pane fade px-4 py-5">
                             <div className="tab-contents" >
                               <div className=''>
-                                <h5 className="hr-lines1" style={{color:"rgb(13 187 253)"}}>   Where I educated   </h5>
+                                {/* <h5 className="hr-lines1" style={{color:"rgb(13 187 253)"}}>   Where I educated   </h5> */}
+                                <h5 style={{textAlign:'center',color:'rgb(48 231 73)'}} >--- Where I educated ---</h5>
                               </div>
 
                               <div className='row mt-5'>

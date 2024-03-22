@@ -25,7 +25,7 @@ function Home() {
                   200,
                   ' ',
                   200,
-                  ' Programmer Analyst',
+                  ' Front-End Developer',
                   200,  
                 ]}
                 style={{ fontSize: '1em' , color:'rgb(225, 222, 222)'}}
