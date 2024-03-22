@@ -101,11 +101,10 @@ section{
   padding: 90px 0;
 }
 .max-width{
-  max-width: 1300px;
+  max-width: 100%;
   padding: 0 80px;
   margin: auto;
 }
-
 
 /* home section styling */
 .home{
@@ -122,15 +121,15 @@ section{
   margin: auto 0 auto 30px;
 }
 .home .home-content .text-1{
-  font-size: 27px;
+  font-size: 25px;
 }
 .home .home-content .text-2{
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
   margin-left: -3px;
 }
 .home .home-content .text-3{
-  font-size: 40px;
+  font-size: 35px;
   margin: 5px 0;
 }
 .home .home-content .text-3 span{
@@ -359,6 +358,9 @@ card-body{
   
    /* Small devices (Portrait phones) - X-Small*/
   @media only screen and (max-width: 576px) {
+    .max-width{
+      padding: 0 0;
+    }
     .img-fluid{
        height:100%;
     }
