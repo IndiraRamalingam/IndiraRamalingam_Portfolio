@@ -315,10 +315,24 @@ section{
 }
 
 /* Background for contact form */
-card-body{
+.card-body{
   background-color: beige;
 }
 
+/* Left side contact details */
+.contact-icon{
+  width:50px;
+  height:45px;
+}
+.contact-icon-title{
+  color:#10f210;
+  font-size:16px;
+  font-weight:700;
+}
+.contact-icon-name{
+  color:white;
+  font-size:20px;
+}
 
 /* XX-Large devices (larger desktops - col-xl */ 
 @media only screen and (max-width: 1400px) {
@@ -346,6 +360,20 @@ card-body{
   .Nav_btn{
     border: none;
   }
+   /* Left side contact details */
+   .contact-icon{
+    width:35px;
+    height:35px;
+  }
+  .contact-icon-title{
+    color:#10f210;
+    font-size:16px;
+    font-weight:700;
+  }
+  .contact-icon-name{
+    color:white;
+    font-size:16px;
+  }
   
   }
   
@@ -354,6 +382,7 @@ card-body{
     .img-fluid{
       height:90%;
    }
+  
   }
   
    /* Small devices (Portrait phones) - X-Small*/

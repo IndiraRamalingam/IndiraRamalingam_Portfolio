@@ -81,7 +81,10 @@ function About() {
                                   {techStack.map((el,i)=>{
                                   return(
                                   <>
-                                  <div className=" Skills-Adjust">
+                                  <div className=" Skills-Adjust
+                                  
+                                  
+                                  ">
                                     <img alt="" src={el.link} className="w-12"/>
                                     <h5>{el.name}</h5>
                                   </div>

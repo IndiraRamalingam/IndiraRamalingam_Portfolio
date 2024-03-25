@@ -36,49 +36,49 @@ function Contact() {
 
              {/* Gmail */}
              <div className='row m-4'>
-                <div className='col-2 col-sm-2'>
-                <a href='mailto:indiraramalingam93@gmail.com' target='_blank' ><img src='https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png' style={{width:'50px',height:'45px'}}></img></a>
+                <div className='col-2 col-sm-2 col-md-2'>
+                <a href='mailto:indiraramalingam93@gmail.com' target='_blank' ><img className='contact-icon' src='https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png'></img></a>
                 <h1 ></h1> 
                 </div>
-                <div className='col-9 col-sm-9'>
-                  <p className='mb-0' style={{color:'#10f210','fontSize':'16px','fontWeight':'700'}}>Gmail</p>
-                  <a href='mailto:indiraramalingam93@gmail.com' target='_blank' style={{color:'white','fontSize':'20px'}}>indiraramalingam93@gmail.com</a>
+                <div className='col-9 col-sm-9 col-md-9'>
+                  <p className='mb-0 contact-icon-title'>Gmail</p>
+                  <a href='mailto:indiraramalingam93@gmail.com' target='_blank' className='contact-icon-name'>indiraramalingam93@gmail.com</a>
                 </div>
               </div>
 
             {/* LinkedIn */}
               <div className='row m-4'>
-                <div className='col-2 col-sm-2'>
-                <a href='https://www.linkedin.com/in/indira-ramalingam-b01986271/' target='_blank' style={{color:'#c2bbe9','fontSize':'40px'}}><img src='https://www.freeiconspng.com/thumbs/linkedin-logo-png/linkedin-logo-3.png' style={{width:'50px',height:'45px'}}></img></a>
+                <div className='col-2 col-sm-2 col-md-2'>
+                <a href='https://www.linkedin.com/in/indira-ramalingam-b01986271/' target='_blank' style={{color:'#c2bbe9','fontSize':'40px'}}><img src='https://www.freeiconspng.com/thumbs/linkedin-logo-png/linkedin-logo-3.png' className='contact-icon'></img></a>
                 <h1 ></h1> 
                 </div>
-                <div className='col-9 col-sm-9 mt-2'>
-                  <p className='mb-0' style={{color:'rgb(106 181 245)','fontSize':'16px','fontWeight':'700'}}>LinkedIn</p>
-                  <a href='https://www.linkedin.com/in/indira-ramalingam-b01986271/' target='_blank' style={{color:'white','fontSize':'20px'}}>indira-ramalingam-b01986271/</a>
+                <div className='col-9 col-sm-9 col-md-9 mt-2'>
+                  <p className='mb-0 contact-icon-title' >LinkedIn</p>
+                  <a href='https://www.linkedin.com/in/indira-ramalingam-b01986271/' target='_blank' className='contact-icon-name'>indira-ramalingam-b01986271/</a>
                 </div>
               </div>
 
               {/* Github */}
                 <div className='row m-4'>
-                <div className='col-2 col-sm-2'>
-                <a href='https://github.com/IndiraRamalingam' target='_blank' style={{color:'#c2bbe9','fontSize':'40px'}}><img src='https://t4.ftcdn.net/jpg/03/85/94/91/360_F_385949189_W1ydL4Z3c6Uy2OfB9rZNdbxVaIMOs16F.jpg' style={{width:'45px',height:'45px'}}></img></a>
+                <div className='col-2 col-sm-2 col-md-2'>
+                <a href='https://github.com/IndiraRamalingam' target='_blank' style={{color:'#c2bbe9','fontSize':'40px'}}><img src='https://t4.ftcdn.net/jpg/03/85/94/91/360_F_385949189_W1ydL4Z3c6Uy2OfB9rZNdbxVaIMOs16F.jpg' className='contact-icon'></img></a>
                 <h1 ></h1> 
                 </div>
-                <div className='col-9 col-sm-9 mt-2'>
-                  <p className='mb-0' style={{color:'rgb(37 242 178)','fontSize':'16px','fontWeight':'700'}}>Github</p>
-                  <a href='https://github.com/IndiraRamalingam' target='_blank' style={{color:'white','fontSize':'20px'}}>github.com/IndiraRamalingam</a>
+                <div className='col-9 col-sm-9 col-md-9 mt-2'>
+                  <p className='mb-0 contact-icon-title'>Github</p>
+                  <a href='https://github.com/IndiraRamalingam' target='_blank' className='contact-icon-name'>github.com/IndiraRamalingam</a>
                 </div>
               </div>
 
                 {/* Mobile */}
                 <div className='row m-4'>
-                <div className='col-2 col-sm-2 mt-2'>
-                <img src='https://cdn-icons-png.flaticon.com/512/3617/3617011.png' style={{width:'60px',height:'50px',marginLeft:'-5px'}}></img>
+                <div className='col-2 col-sm-2 col-md-2 mt-2'>
+                <img src='https://cdn-icons-png.flaticon.com/512/3617/3617011.png' className='contact-icon'></img>
                 <h1 ></h1> 
                 </div>
-                <div className='col-9 col-sm-9 mt-2'>
-                  <p className='mb-0' style={{color:'rgb(242 194 37)','fontSize':'16px','fontWeight':'700'}}>Mobile</p>
-                  <p style={{color:'white','fontSize':'20px'}}>+91-8056929328</p>
+                <div className='col-9 col-sm-9 col-md-9 mt-2'>
+                  <p className='mb-0 contact-icon-title '>Mobile</p>
+                  <p className='contact-icon-name'>+91-8056929328</p>
                 </div>
               </div>
 
@@ -98,7 +98,7 @@ function Contact() {
 
           <div className='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-4 rounded' style={{backgroundColor:'#8d8d83'}}>
                 <Form ref={form} onSubmit={handleSubmit} >
-                <div className="p-md-4" >
+                <div className="p-4" >
                     
                   <div className="form-outline mb-4">
                   <label style={{fontSize:'20px','color':'rgb(225, 222, 222)','fontWeight':'500'}}>Name</label>
