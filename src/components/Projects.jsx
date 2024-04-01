@@ -10,7 +10,7 @@ function Projects() {
         <h3 className="mb-5 " style={{color:"rgb(225, 222, 222)",'fontWeight':'bolder','textAlign':'center','fontSize':'45px','marginTop':'-50px'}}>Projects I've done</h3>
         <div className='mt-5'>
           {/* <h5 className="hr-lines" style={{'color':"rgb(13 187 253)"}}>few of my works</h5> */}
-          <h5 style={{textAlign:'center',color:'rgb(48 231 73)'}} >--- few of my works ---</h5>
+          <h5 style={{textAlign:'center',color:'rgb(48 231 73)'}} >--- few of my works during FSD Course ---</h5>
    
 
           <div className='contianer m-5'>
