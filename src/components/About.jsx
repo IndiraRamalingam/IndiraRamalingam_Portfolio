@@ -48,7 +48,7 @@ function About() {
                 {/* Adding content in about page */}
                 <div className='mt-4' style={{fontFamily:'sans-serif Poppins', textAlign: 'justify',fontSize:'18px'}}>
                 {/* <p>Around 3+ years of experience in IT Industry as a Programmer Analyst and involved in developing Frontend Web pages using Jahia CMS, HTML, CSS and JS. Worked in Agile Methodology. By understanding the document requirment, performed coding based on coding standards. Recently, I have completed my certification in Full Stack Development - MERN at GUVI Geeks Networks, IITM Research Park, Chennai. As a Full Stack professional, I am looking to develop robust web applications that support scalability through the use of my technical knowledge and apply my programming and analytical studies in the organization professionally. I have clear understanding of modern technologies & best design practices. Now I am seeking for an opportunity to utilize my skills and abilities in the Information Technology Industry that offers Professional growth while being resourceful, innovative, and flexible. I am always ready for expanding my knowledge/learning’s and it's successful implementation. </p> */}
-                <p>I am a skilled front-end developer with over 3+ years of experience in creating user-friendly interfaces. I was proficient in a variety of front-end technologies including HTML5, CSS3,Bootstrap, Jahia CMS and Javascript frameworks like React. Also, Skilled in translating design mockups into pixel-perfect interfaces that enhance user engagement. My interests revolve around continuous learning and growth by enjoy exploring new technologies and trend in the field, which aligns well with the role.</p>
+                <p>I am a skilled front-end developer with over 3+ years of experience in creating user-friendly interfaces. I was proficient in a variety of front-end technologies including HTML5, CSS3,Bootstrap, Jahia CMS and Javascript frameworks like React. Also, Skilled in translating design mockups into pixel-perfect interfaces that enhance user engagement. My interests revolve around continuous learning and growth by enjoy exploring new technologies and trend in the field, which aligns well with the role. Also, I have completed my certification in MERN Full Stack development.</p>
                 </div>
 
                 {/* To Download Resume */}
@@ -228,6 +228,28 @@ function About() {
                                     </div>
                                     <div className='col-sm-3' style={{'textAlign':'center'}}>
                                     <i className="fa fa-calendar " style={{'fontSize':'17px','fontWeight':'bold'}} > April 2009</i>
+                                    </div>
+                                </div>
+                                </div>
+
+                              <div className=''>                            
+                                <h5 style={{textAlign:'center',color:'rgb(48 231 73)'}} >---Certification---</h5>
+                              </div>
+                    
+                                <div className='row mt-3'>
+                                   <div className='col-sm-3' style={{'textAlign':'center'}}>
+                                   <span className="bi bi-mortarboard-fill blue-color" style={{'fontSize':'50px'}}> </span>
+                                   </div>
+                                    <div className='col-sm-6'>
+{/*                                     <h5 className=" text-uppercase" style={{color:"rgb(229 202 139 / 95%)",'fontWeight':'bold','fontSize':'20px','textAlign':'center'}}>Certification</h5> */}
+                                    <div className='mx-1'>
+                                      <h6 style={{'fontFamily':'serif','textAlign':'center'}}>MERN Full Stack Development</h6>
+                                      <p style={{'fontFamily':'serif','textAlign':'center'}}>GUVI Geek Networks Ltd, IITM - Chennai.</p>
+                                    </div>
+                                    </div>
+                                    <div className='col-sm-3' style={{'textAlign':'center'}}>
+                              
+                                    <i className="fa fa-calendar " style={{'fontSize':'17px','fontWeight':'bold'}} > July 2023</i>
                                     </div>
                                 </div>
                                 </div>
